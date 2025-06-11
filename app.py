@@ -3,12 +3,15 @@ from PIL import Image
 import openai
 import base64
 import io
+import os
 from utils import criar_banco
 criar_banco()
 
 
 # Defina sua chave da OpenAI
-openai.api_key = "sua_chave"
+
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
 
 # ===================== FUNÇÕES ===================== #
 
