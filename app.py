@@ -8,7 +8,7 @@ criar_banco()
 
 
 # Defina sua chave da OpenAI
-openai.api_key = ""
+openai.api_key = "sua_chave"
 
 # ===================== FUNÇÕES ===================== #
 
