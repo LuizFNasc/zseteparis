@@ -1,0 +1,4 @@
+streamlit
+openai
+pillow
+sqlite3 ; already built-in, mas pode ser incluído por segurança
